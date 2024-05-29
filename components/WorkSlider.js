@@ -65,7 +65,6 @@ import { Pagination} from "swiper";
 
 import {BsArrowRight} from 'react-icons/bs'
 
-
 const WorkSlider = () => {
   return <Swiper 
   spaceBetween={10}

@@ -35,8 +35,6 @@ import {
   SiCplusplus,
   SiTypescript
 } from "react-icons/si";
-
-
 //  data
 export const aboutData = [
   {
