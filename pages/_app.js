@@ -6,10 +6,6 @@ import  Transition from '../components/Transition';
 // router 
 import {useRouter} from 'next/router'
 
-
-
-
-
 //frame motion
 import {AnimatePresence, motion} from 'framer-motion'
 
