@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 // component 
 import Circles from '/components/Circles';
 
@@ -25,8 +26,7 @@ const Contact = () => {
           animate="show" 
           exit="exit" 
           className='h2 text-center mb-12' 
-        >
-          Let's <span className='text-accent'>connect.</span>
+        > Let's <span className='text-accent'>connect.</span>
         </motion.h2>
         {/* form */}
         <motion.form 

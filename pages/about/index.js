@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/jsx-key */
 import React, { useState } from "react";
 
 // icons
@@ -8,13 +10,16 @@ import {
   FaReact,
   FaWordpress,
   FaFigma,
+  FaJava,
 } from "react-icons/fa";
 
 import {
+  SiAndroid,
   SiNextdotjs,
   SiFramer,
   SiAdobexd,
   SiAdobephotoshop,
+  SiVisualstudiocode
 } from "react-icons/si";
 
 
@@ -26,18 +31,39 @@ export const aboutData = [
       {
         title: 'Web Development',
         icons: [
-          <FaHtml5 />,
+          <SiVisualstudiocode />,
+          // <FaHtml5 />,
           <FaCss3 />,
           <FaJs />,
           <FaReact />,
           <SiNextdotjs />,
           <SiFramer />,
-          <FaWordpress />,
+          <FaWordpress />
+        ],
+      },
+      {
+        title: 'Mobile Development',
+        icons: [
+          <SiAndroid />,
+          <FaReact />,
+          <FaJava />         
+        ],
+      },
+      {
+        title: 'Software Engineering',
+        icons: [
+          <FaJava />, 
+          <SiAdobexd />
+         
         ],
       },
       {
         title: 'UI/UX Design',
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+        icons: [
+          <FaFigma />, 
+          <SiAdobexd />, 
+          <SiAdobephotoshop />
+        ],
       },
     ],
   },
@@ -45,34 +71,34 @@ export const aboutData = [
     title: 'awards',
     info: [
       {
-        title: 'Webby Awards - Honoree',
-        stage: '2011 - 2012',
+        title: '1er Lauréat FISCATHON',
+        stage: '2023',
       },
       {
-        title: 'Adobe Design Achievement Awards - Finalist',
-        stage: '2009 - 2010',
+        title: '1er Lauréat JSTIM HACKATHON IA',
+        stage: '2023',
       },
+      {
+        title: '2ème Lauréat IDEATHON',
+        stage: '2023',
+      }
     ],
   },
   {
     title: 'experience',
     info: [
       {
-        title: 'UX/UI Designer - XYZ Company',
-        stage: '2012 - 2023',
+        title: 'Intern - LASMO Laboratory',
+        stage: '2023',
       },
       {
-        title: 'Web Developer - ABC Agency',
-        stage: '2010 - 2012',
+        title: 'Web Developer - Impact & Partners',
+        stage: '2024',
       },
       {
-        title: 'Intern - DEF Corporation',
-        stage: '2008 - 2010',
-      },
-      {
-        title: 'Intern - DEF Corporation',
-        stage: '2008 - 2010',
-      },
+        title: 'JAVA Developper - ThinckeauCapital',
+        stage: '2024',
+      }
     ],
   },
   {
