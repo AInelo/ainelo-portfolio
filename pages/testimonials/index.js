@@ -8,7 +8,7 @@ import {motion} from 'framer-motion'
 import { fadeIn } from '../../variants'
 const Testimonials = () => {
 
-  
+
   return( 
   <div className="h-full bg-primary/30 py-32 text-center" >
       <div className="container mx-auto h-full flex flex-col justify-center">
@@ -30,7 +30,9 @@ const Testimonials = () => {
           <TestimonialSlider />
         </motion.div>
       </div>
-  </div>);
+  </div>
+  );
+  
 };
 
 export default Testimonials;
