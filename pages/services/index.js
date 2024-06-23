@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 
 import {
   RxCrop,
@@ -13,7 +14,7 @@ const serviceData = [
   {
     icon: <RxDesktop />,
     title: 'Development web',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: "Je transforme vos idées d'application en réalité marchant dans le web.",
   },
   {
     icon: <RxDesktop />,
@@ -22,7 +23,7 @@ const serviceData = [
   },
   {
     icon: <RxCrop />,
-    title: 'Branding',
+    title: 'Software Engineering',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   },
   {
@@ -64,17 +65,15 @@ const Services = () => {
                 exit="hidden" 
                 className="h2 xl:mt-8"
                 >
-                  My services<span className="text-accent" >.</span></motion.h2>
+                  Mes services<span className="text-accent" >.</span></motion.h2>
               <motion.p 
                 variants={fadeIn("down",0.5)} 
                 initial="hidden" 
                 animate="show" 
                 exit="hidden" 
                 className="mb-4 max-w-[400px] mx-auto lg:mx-0" > 
-                  Labore id nisi tempor velit. Proident voluptate ex cillum 
-                  aute velit laboris voluptate aliquip esse eiusmod occaecat et. 
-                  Minim ad id adipisicing cupidatat esse eiusmod id duis consectetur 
-                  sint est sunt sunt. Aliqua dolore occaecat excepteur pariatur id esse 
+                  Très passionnés de l'informatique, j'offre services divers, qui vont dans le sens de l'optimisation des principes métier 
+                  et l'automatisation des tâches. 
                   
               </motion.p>
           </div>

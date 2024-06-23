@@ -4,22 +4,34 @@ import React, { useState } from "react";
 
 // icons
 import {
-  FaHtml5,
+  
   FaCss3,
   FaJs,
   FaReact,
   FaWordpress,
   FaFigma,
   FaJava,
+  
 } from "react-icons/fa";
 
 import {
+  
+  SiJenkins,
+  SiGit,
+  SiIos,
+  SiKotlin,
   SiAndroid,
   SiNextdotjs,
-  SiFramer,
   SiAdobexd,
   SiAdobephotoshop,
-  SiVisualstudiocode
+  SiVisualstudiocode,
+  SiFirebase,
+  SiPostgresql,
+  SiMysql,
+  SiMongodb,
+  SiPostman,
+  SiCplusplus,
+  SiTypescript
 } from "react-icons/si";
 
 
@@ -29,32 +41,45 @@ export const aboutData = [
     title: 'skills',
     info: [
       {
-        title: 'Web Development',
+        title: 'FrontEnd Development',
         icons: [
           <SiVisualstudiocode />,
-          // <FaHtml5 />,
           <FaCss3 />,
           <FaJs />,
+          <SiTypescript />,
           <FaReact />,
           <SiNextdotjs />,
-          <SiFramer />,
           <FaWordpress />
+        ],
+      },
+      {
+        title: 'BackEnd Development',
+        icons: [
+          <SiPostman />,
+          <SiPostgresql />,
+          <SiMysql />,
+          <SiMongodb />,
+          <SiFirebase />,         
         ],
       },
       {
         title: 'Mobile Development',
         icons: [
+          <SiIos />,
           <SiAndroid />,
           <FaReact />,
-          <FaJava />         
+          <FaJava />,
+          <SiKotlin />         
         ],
       },
       {
         title: 'Software Engineering',
         icons: [
           <FaJava />, 
-          <SiAdobexd />
-         
+          <SiCplusplus />,
+          <SiGit />,
+          <SiJenkins />
+
         ],
       },
       {
@@ -226,7 +251,7 @@ const About = () => {
               <div className="relative flex-1 after:w-[1px] after:h-full
               after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2" >
-                  <CountUp start={0} end={8} duration={5} /> +
+                  <CountUp start={0} end={3} duration={5} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4]
                 max-w-[100px]">

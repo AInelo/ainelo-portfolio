@@ -3,21 +3,21 @@
 const serviceData = [
   {
     icon: <RxCrop />,
-    title: 'Branding',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Dev Web',
+    description: "Je transforme vos idées d'application en réalité marchant dans le web.",
   },
   {
-    icon: <RxPencil2 />,
-    title: 'Design',
+    icon: <RxMobile />,
+    title: 'Dev Mobile',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   },
   {
     icon: <RxDesktop />,
-    title: 'Development',
+    title: 'Design',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   },
   {
-    icon: <RxReader />,
+    icon: <SiWebpack />,
     title: 'Copywriting',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   },
@@ -38,6 +38,36 @@ import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 
 // import icons
+import {
+   
+  RiInstagramLine, 
+  RiDribbbleLine, 
+  RiBehanceLine,
+  RiPinterestLine,
+  RiFacebookBoxLine,
+  RiLinkedinLine,
+  RiGithubLine
+} from 'react-icons/ri'
+
+import {
+  SiWebpack,
+  SiJenkins,
+  SiGit,
+  SiIos,
+  SiKotlin,
+  SiAndroid,
+  SiNextdotjs,
+  SiAdobexd,
+  SiAdobephotoshop,
+  SiVisualstudiocode,
+  SiFirebase,
+  SiPostgresql,
+  SiMysql,
+  SiMongodb,
+  SiPostman,
+  SiCplusplus,
+  SiTypescript
+} from "react-icons/si";
 
 import {
   RxCrop,
@@ -46,6 +76,7 @@ import {
   RxReader,
   RxRocket,
   RxArrowTopRight,
+  RxMobile
 } from 'react-icons/rx';
 
 // import required modules

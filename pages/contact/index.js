@@ -30,7 +30,7 @@ const Contact = () => {
         </motion.h2>
         {/* form */}
         <motion.form 
-          variants={fadeIn('up', 0.5)} 
+          variants={fadeIn('up', 0.5)}
           initial="hidden" 
           animate="show" 
           exit="exit" 

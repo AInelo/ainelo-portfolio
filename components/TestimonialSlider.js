@@ -2,10 +2,10 @@
 export const testimonialData = [
   {
     image: '/t-avt-1.png',
-    name: 'Anne Smith',
-    position: 'Customer',
+    name: 'Marius HOUNNANDE',
+    position: 'Quantitative Developer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Lionel TOTON est un bon développeur, de part de sa capacité à résoudre des problèmes, mettre en place une Architecture Clean!',
   },
   {
     image: '/t-avt-2.png',
@@ -16,13 +16,11 @@ export const testimonialData = [
   },
   {
     image: '/t-avt-3.png',
-    name: 'Jhon Doe',
-    position: 'Customer',
-    message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
-  },
+    name: 'Dr TOGBE Thimonthé',
+    position: 'Maitre de conférence',
+    message: 'Lionel TOTON est un développeur logiciel talentueux, il a réalisé le site internet du Laboratoir LASMO et de sa revue littéraire (RevueDezan) avec un design innovant'
+    },
 ];
-
 
 // import swiper react components
 import {Swiper, SwiperSlide} from 'swiper/react';

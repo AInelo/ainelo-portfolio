@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 // next image
 import Image from "next/image";
 
@@ -39,9 +40,8 @@ const Home = () => {
             animate="show"
             exit="hidden"
             className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16' >
-            L'informatique par la programmation permet à l'Homme de gagner du <span className="text-accent" >TEMPS.</span> 
-            Cette ressource rare et très volatile, mais essentiel. La seule ressource 
-            qui ne peut être marchander.
+            L'informatique par l'<span className="text-accent">IA</span> permet à l'Homme de gagner du <span className="text-accent" >TEMPS.</span> 
+            Cette ressource rare et très volatile, mais essentiel. Elle est La seule qui ne peut être marchander.
             
           </motion.p>
           {/* btn */}
