@@ -2,8 +2,6 @@
 /* eslint-disable react/jsx-key */
 import React, { useState } from "react";
 
-
-
 // icons
 import {
   
@@ -149,6 +147,7 @@ export const aboutData = [
 // components 
 import Avatar from '../../components/Avatar';
 import Circles from '../../components/Circles';
+
 
 
 // framer motion
