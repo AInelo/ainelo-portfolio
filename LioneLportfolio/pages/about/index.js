@@ -3,19 +3,9 @@
 import React, { useState } from "react";
 
 // icons
-import {
-  
-  FaCss3,
-  FaJs,
-  FaReact,
-  FaWordpress,
-  FaFigma,
-  FaJava,
-  
-} from "react-icons/fa";
+import { FaCss3,  FaJs,  FaReact,  FaWordpress,  FaFigma,  FaJava, } from "react-icons/fa";
 
 import {
-  
   SiJenkins,
   SiGit,
   SiIos,
