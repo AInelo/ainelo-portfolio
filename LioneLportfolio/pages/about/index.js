@@ -147,6 +147,10 @@ import { fadeIn } from '../../variants';
 // counter 
 import CountUp from "react-countup";
 
+
+import AvatarAbout from "../../public/avatar.png";
+
+
 const About = () => {
   const [index, setIndex] = useState(0);
   console.log(index);
@@ -162,12 +166,15 @@ const About = () => {
         exit="hidden"
         className="hidden xl:flex absolute bottom-0 -left-[370px]"
       >
-
-        <Avatar />
+        <Avatar 
+         imageSrc={AvatarAbout}
+          imageWigth={737}
+          imageHeight={678}
+          addStyles = {"w-full h-full"}
+        />
 
       </motion.div>
-      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row
-    gap-x-6">
+      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
 
         {/* text */}
         <div className="flex-1 flex flex-col justify-center">
