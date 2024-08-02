@@ -11,6 +11,12 @@ import { fadeIn } from '../variants'
 
 // import AvatarHome from "../public/avatar.png";
 import AvatarHome from "../public/AvatarHomeVersion.png";
+import AvatarHome2 from "../public/AvatarHomeVersion.png";
+
+const imagesLogo = {
+  AvatarHome,
+  AvatarHome2
+}
 
 
 const Home = () => {
@@ -75,12 +81,16 @@ const Home = () => {
         transition={{duration : 1, ease: 'easeInOut'}}
         className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32
         lg:bottom-0 lg:right-[8%]" >
+        
+        
         <Avatar
-          imageSrc={''}
+          imageSrc={imagesLogo.AvatarHome}
           imageWigth = {339}
           imageHeight = {500}
           addStyles = {"w-full h-full"}
         />
+
+
       </motion.div>
     </div>
   </div>
