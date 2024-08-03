@@ -21,7 +21,7 @@ const defaultDeal: NewDealInitialValuesType = {
   coupon: '',
   discount: undefined,
   contactName: '',
-  contactEmail: '',
+  contactEmail: 'lionel',
 };
 
 const LOCAL_STORAGE_KEY = 'multi-page-form-demo-newDealData';
