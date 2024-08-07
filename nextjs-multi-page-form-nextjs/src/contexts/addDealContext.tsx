@@ -24,7 +24,13 @@ const defaultDeal: NewDealInitialValuesType = {
   contactEmail: '',
 };
 
+
+
+
 const LOCAL_STORAGE_KEY = 'multi-page-form-demo-newDealData';
+
+
+
 
 type AddDealContextType = {
   newDealData: NewDealInitialValuesType;
