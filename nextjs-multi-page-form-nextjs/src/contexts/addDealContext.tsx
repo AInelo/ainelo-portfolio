@@ -55,11 +55,16 @@ export const AddDealContextProvider = ({
     setDataLoaded(true);
   }, []);
 
+
+
   useEffect(() => {
     if (dataLoaded) {
       saveDataToLocalStorage(newDealData);
     }
   }, [newDealData, dataLoaded]);
+
+
+
 
   const updateNewDealDetails = useCallback(
     (dealDetails: Partial<NewDealType>) => {
@@ -68,6 +73,9 @@ export const AddDealContextProvider = ({
     [newDealData]
   );
 
+
+
+  
   const saveDataToLocalStorage = (
     currentDealData: NewDealInitialValuesType
   ) => {
