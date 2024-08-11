@@ -1,10 +1,13 @@
 'use client';
 
+
+
 interface IconProps {
   id: string;
   size?: number;
   className?: string;
 }
+
 
 export default function Icon({ id, size, className }: IconProps): JSX.Element {
   return (
