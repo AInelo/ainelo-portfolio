@@ -45,7 +45,7 @@ const Home = () => {
             animate="show"
             exit="hidden"
             className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16' >
-            L'informatique par l'<span className="text-accent">IA</span> permet à l'Homme de gagner du <span className="text-accent" >TEMPS.</span> 
+            L&apos;informatique par l&apos;<span className="text-accent">IA</span> permet à l&apos;Homme de gagner du <span className="text-accent" >TEMPS.</span> 
             Cette ressource rare et très volatile, mais essentiel. Elle est La seule qui ne peut être marchander.
             
           </motion.p>
